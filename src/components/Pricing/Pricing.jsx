@@ -6,9 +6,9 @@ import WhiteCheck from '../../assets/WhiteCheck.png'
 const Pricing = () => {
     return (
      <div className="max-w-7xl mx-auto px-2">
-            <div>
-                <h1>Simple, Transparent Pricing</h1>
-                <p>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
+            <div className='text-center space-y-2'>
+                <h1 className='text-5xl font-semibold'>Simple, Transparent Pricing</h1>
+                <p className='opacity-70'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
             </div>
             <div className='parent grid md:grid-cols-3 grid-cols-1'>
                 {/* card-1 */}

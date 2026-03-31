@@ -3,7 +3,7 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-        <div className='flex justify-between mx-10 max-w-7xl mx-auto px-2'>
+        <div className='flex justify-between mx-10 max-w-7xl mx-auto px-2 '>
             <h1 className="px-6 py-2 font-bold text-2xl bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent"> MeDigiTools</h1>
 
             <ul className='flex mt-3'>
