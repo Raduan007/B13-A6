@@ -12,12 +12,12 @@ const Cta = () => {
 
     <div className='flex flex-col sm:flex-row justify-center gap-3 my-4'>
         <button className="bg-white px-6 py-3 rounded-full font-semibold relative overflow-hidden group w-full sm:w-auto">
-            <span className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent transition-all duration-500 group-hover:from-[#9514FA] group-hover:to-[#4F39F6]">
+            <span className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent transition-all duration-500 group-hover:from-[#9514FA] group-hover:to-[#4F39F6] transition duration-150 hover:opacity-80">
                 Explore Products
             </span>
         </button>
 
-        <button className="px-6 py-3 rounded-full font-semibold text-white border border-white bg-gradient-to-r from-[#4F39F6] to-[#9514FA] hover:from-[#9514FA] hover:to-[#4F39F6] transition-all duration-500 w-full sm:w-auto">
+        <button className="px-6 py-3 rounded-full font-semibold text-white border border-white bg-gradient-to-r from-[#4F39F6] to-[#9514FA]bg-gradient-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white transition duration-150 hover:opacity-80 w-full sm:w-auto">
             View Pricing
         </button>
     </div>

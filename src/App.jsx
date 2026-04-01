@@ -28,7 +28,7 @@ function App() {
       return [...prev, item];
     });
   };
-
+  
   const removeFromCart = (id) => {
     setCart((prev) => prev.filter(i => i.id !== id));
   };
@@ -54,7 +54,7 @@ function App() {
               cart={cart}
               addToCart={addToCart}
               removeFromCart={removeFromCart}
-              clearCart={clearCart}   // ✅ NEW
+              clearCart={clearCart}   
               cartOpen={cartOpen}
               setCartOpen={setCartOpen}
             />

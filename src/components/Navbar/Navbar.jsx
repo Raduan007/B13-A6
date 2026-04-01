@@ -21,7 +21,7 @@ const Navbar = ({ cart, setCartOpen }) => {
       </ul>
 
       <div className='flex items-center space-x-4'>
-        <button onClick={() => setCartOpen(true)} className="relative">
+        <button onClick={() => setCartOpen(true)} className="relative ">
           <img src={CartIcon} alt="cart" className='w-6' />
           {cart.length > 0 && (
             <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs w-5 h-5 flex items-center justify-center rounded-full">
@@ -33,13 +33,13 @@ const Navbar = ({ cart, setCartOpen }) => {
         {/* lg-btn */}
         <div className='hidden md:flex space-x-4'>
           <button>Login</button>
-          <button className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] px-4 py-2 rounded-full text-white">
+          <button className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] px-4 py-2 rounded-full text-white ">
             Get Started
           </button>
         </div>
 
         {/* small - icon*/}
-        <button className='md:hidden' onClick={() => setOpen(!open)}>
+        <button className='md:hidden ' onClick={() => setOpen(!open)}>
           <img src={MenuIcon} alt="menu" className='w-6' />
         </button>
       </div>
@@ -51,7 +51,7 @@ const Navbar = ({ cart, setCartOpen }) => {
       Login
     </button>
 
-    <button className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] px-4 py-2 rounded-full text-white w-full">
+   <button className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] px-4 py-2 rounded-full text-white w-full transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg active:scale-95">
       Get Started
     </button>
 
