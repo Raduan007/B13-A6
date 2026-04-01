@@ -24,9 +24,7 @@ const Models = ({ modelPromise, cart, addToCart, removeFromCart, clearCart, cart
       {/* Top section */}
       <div className="text-center mb-10">
         <h2 className="text-4xl font-bold text-gray-800">Premium Digital Tools</h2>
-        <p className="text-gray-500 mt-2">
-          Choose from our curated collection of premium digital products.
-        </p>
+        <p className="text-gray-500 mt-2"> Choose from our curated collection of premium digital products.</p>
 
         <div className="mt-5 flex justify-center gap-4">
           <button
