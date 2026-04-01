@@ -13,7 +13,7 @@
         "50+ writing templates",
         "Grammar checker"
       ],
-      "icon": "assets/icons/ai-writing.png"
+      "icon":" https://res.cloudinary.com/dmh1xdlyo/image/upload/q_auto/f_auto/v1775035884/ai_jztdd7.png "
     },
     {
       "id": 2,
@@ -28,7 +28,7 @@
         "Monthly updates",
         "Commercial license"
       ],
-      "icon": "assets/icons/design-templates.png"
+      "icon": "https://res.cloudinary.com/dmh1xdlyo/image/upload/v1775036338/design-tool_k8lhmz.png"
     },
     {
       "id": 3,
@@ -43,7 +43,7 @@
         "Commercial use",
         "No attribution"
       ],
-      "icon": "assets/icons/stock-assets.png"
+      "icon": "https://res.cloudinary.com/dmh1xdlyo/image/upload/v1775036959/camera_t3r4nx.png"
     },
     {
       "id": 4,
@@ -58,7 +58,7 @@
         "API access",
         "Custom workflows"
       ],
-      "icon": "assets/icons/automation.png"
+      "icon": "https://res.cloudinary.com/dmh1xdlyo/image/upload/v1775036355/operation_ew6qtc.png"
     },
     {
       "id": 5,
@@ -73,7 +73,7 @@
         "ATS optimization",
         "Export to PDF"
       ],
-      "icon": "assets/icons/resume.png"
+      "icon": "https://res.cloudinary.com/dmh1xdlyo/image/upload/v1775036365/portfolio_owks1z.png"
     },
     {
       "id": 6,
@@ -88,7 +88,7 @@
         "Scheduler included",
         "Analytics dashboard"
       ],
-      "icon": "assets/icons/social-media.png"
+      "icon": "https://res.cloudinary.com/dmh1xdlyo/image/upload/v1775036380/social-media_u1hn5c.png"
     },
     {
       "id": 7,
@@ -103,7 +103,7 @@
         "Responsive templates",
         "Free hosting"
       ],
-      "icon": "assets/icons/website-builder.png"
+      "icon": "https://res.cloudinary.com/dmh1xdlyo/image/upload/v1775036470/web_pqyard.png"
     },
     {
       "id": 8,
@@ -118,7 +118,7 @@
         "Site audit",
         "Backlink tracking"
       ],
-      "icon": "assets/icons/seo.png"
+      "icon": "https://res.cloudinary.com/dmh1xdlyo/image/upload/v1775036478/seo_jcu3vj.png"
     },
     {
       "id": 9,
@@ -133,22 +133,8 @@
         "Automation workflows",
         "Performance reports"
       ],
-      "icon": "assets/icons/email.png"
-    },
-    {
-      "id": 10,
-      "name": "Cloud Storage Pro",
-      "description": "Secure cloud storage solution for backing up and sharing files.",
-      "price": 99,
-      "period": "yearly",
-      "tag": "Popular",
-      "tagType": "popular",
-      "features": [
-        "1TB storage",
-        "Secure backup",
-        "File sharing"
-      ],
-      "icon": "assets/icons/cloud-storage.png"
+      "icon": "https://res.cloudinary.com/dmh1xdlyo/image/upload/v1775036461/email_rtgwcc.png"
     }
+ 
   ]
 }
