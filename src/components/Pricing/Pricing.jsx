@@ -35,7 +35,7 @@ const Pricing = () => {
                         <img src={Check} alt="Check" />
                         <h6 className='opacity-80'>1 project per month</h6>
                     </div>
-                    <div>
+                    <div className='ml-6'>
                          <button className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] px-15 py-2 rounded-full text-white">Get Started Free</button>
                     </div>
                 </div>
@@ -76,7 +76,7 @@ const Pricing = () => {
                         <h6 className='opacity-80'>Advanced analytics</h6>
                     </div>  
                      <div>
-                          <button className="bg-white px-22 py-2 rounded-full font-semibold relative overflow-hidden group">
+                          <button className="bg-white px-16 ml-4  py-2 rounded-full font-semibold relative overflow-hidden group">
                            <span className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent transition-all duration-500 group-hover:from-[#9514FA] group-hover:to-[#4F39F6]">Explore Products </span>
                            </button>
                     </div>         
@@ -116,7 +116,7 @@ const Pricing = () => {
                         <img src={Check} alt="Check" />
                         <h6 className='opacity-80'>Custom branding</h6>
                     </div>
-                      <div>
+                      <div className='ml-6'>
                          <button className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] px-15 py-2 rounded-full text-white">Get Started Free</button>
                     </div>
 
